@@ -14,9 +14,9 @@ public class Million{
       i++;
       if(sum >= 1000000 && d == 0){
         d = i;
-      } //if sum
-    } //while
+      } 
+    } 
     System.out.println(d);
     scan.close();
-  } //main
-} // class
+  } 
+} 

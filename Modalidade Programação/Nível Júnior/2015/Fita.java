@@ -20,14 +20,14 @@ public class Fita{
             } 
             else if (fita[j] == -1 || d < fita[j]){
               fita[j] = 9;
-            } // loop do else if
-        } // loop do primeiro if
-      } // loop interno do for
-    } // loop externo do for
+            } 
+        } 
+      } 
+    } 
 
     for(int k = 0; k < n; k++){
       System.out.print(fita[k] + " ");
     }
 
-  } // main
-} // class
+  } 
+} 
