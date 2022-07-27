@@ -1,4 +1,3 @@
-/* Passa nos testes dados, mas estou com dificuldade em dizer se está realmente correto */
 import java.util.Scanner;
 
 public class Tabuleiro{
@@ -8,7 +7,6 @@ public class Tabuleiro{
         int N = sc.nextInt();
         int[][] tabuleiro = inicializaTabuleiro(N);
         System.out.println(preencheCelula(N-1, tabuleiro)); 
-        //imprimeTabuleiro(tabuleiro);        
     }
   
     static int[][] inicializaTabuleiro(int N){
@@ -40,13 +38,4 @@ public class Tabuleiro{
         if (tabuleiro[N-1][N] != 9 && tabuleiro[N-1][N-1] != 9 && tabuleiro[N][N-1] != 9) return false;
         else return true;
     }
-
-    /*static void imprimeTabuleiro (int[][] tabuleiro){
-        for (int i = 0; i < tabuleiro.length; i++){
-            for (int j = 0; j < tabuleiro.length; j++){
-                System.out.print(tabuleiro[i][j] + " ");
-            }
-            System.out.println(" ");
-        }
-    }*/
 }
